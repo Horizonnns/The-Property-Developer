@@ -1,0 +1,53 @@
+@import './reset.css';
+@import './fonts.css';
+
+body {
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 500;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1750px;
+}
+
+/* <!-- Button --> */
+.btn {
+	font-weight: 800;
+	font-size: 20px;
+	color: #114455;
+	border-radius: 2px;
+	padding: 10px 24px;
+	display: inline-block;
+	border: 1px solid #114455;
+}
+
+/* <!-- Header --> */
+.header {
+	min-height: 100vh;
+	background-image: url('../assets/img/header/header-bg.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.header__top {
+	padding: 44px 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	column-gap: 118px;
+}
+
+.link {
+	font-weight: 800;
+	font-size: 20px;
+	color: #114455;
+}
