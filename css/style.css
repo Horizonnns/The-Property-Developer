@@ -180,8 +180,8 @@ body {
 	font-size: 140px;
 	color: #114455;
 	position: absolute;
-
 	background: linear-gradient(90deg, #114455 80px, #fff 80px);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
