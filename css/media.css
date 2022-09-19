@@ -1,0 +1,17 @@
+/* <!-- Tablet --> */
+@media (max-width: 1000px) {
+	.header__title {
+		font-size: 50px;
+		margin-bottom: 28px;
+	}
+
+	.header__text {
+		font-size: 24px;
+		margin-bottom: 52px;
+	}
+}
+
+/* <!-- Mobile --> */
+@media (max-width: 600px) {
+
+}
