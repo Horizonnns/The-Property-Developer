@@ -8,17 +8,24 @@ $(document).ready(function () {
 				loop: true,
 				dots: false,
 			},
-			// breakpoint from 480 up
+			// breakpoint from 601 up
 			601: {
 				items: 3,
 				margin: 32,
 				loop: true,
 				dots: false,
 			},
-			// breakpoint from 768 up
+			// breakpoint from 1001 up
 			1001: {
 				items: 3,
 				margin: 48,
+				loop: true,
+				dots: false,
+			},
+			// breakpoint from 1281 up
+			1581: {
+				items: 4,
+				margin: 10,
 				loop: true,
 				dots: false,
 			},
