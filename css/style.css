@@ -213,19 +213,19 @@ body {
 }
 
 .slide__img {
-	width: 280px;
-	height: 341px;
+	width: 336px;
+	height: 396px;
 }
 
 .slide__title {
 	z-index: 2;
-	left: 0;
+	left: 41px;
 	bottom: 104px;
 	font-weight: 800;
-	font-size: 140px;
+	font-size: 70px;
 	color: #114455;
 	position: absolute;
-	background: linear-gradient(90deg, #114455 80px, #fff 80px);
+	background: linear-gradient(90deg, #114455 40px, #fff 40px);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
