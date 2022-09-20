@@ -43,6 +43,7 @@
 	}
 
 	.slide__title {
+		left: 5px;
 		bottom: 32px;
 		font-size: 80px;
 		background: linear-gradient(90deg, #114455 46px, #fff 46px);
@@ -153,6 +154,7 @@
 	}
 
 	.slide__title {
+		left: 0;
 		bottom: 22px;
 		font-size: 60px;
 		background: linear-gradient(90deg, #114455 33px, #fff 33px);
