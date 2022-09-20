@@ -17,14 +17,21 @@ $(document).ready(function () {
 			},
 			// breakpoint from 1001 up
 			1001: {
-				items: 3,
-				margin: 48,
+				items: 2,
+				margin: 2,
 				loop: true,
 				dots: false,
 			},
-			// breakpoint from 1281 up
-			1581: {
-				items: 4,
+			// breakpoint from 1301 up
+			1301: {
+				items: 3,
+				margin: 2,
+				loop: true,
+				dots: false,
+			},
+			// breakpoint from 1441 up
+			1441: {
+				items: 3,
 				margin: 10,
 				loop: true,
 				dots: false,
