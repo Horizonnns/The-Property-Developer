@@ -1,8 +1,28 @@
 $(document).ready(function () {
 	$('.owl-carousel').owlCarousel({
-		dots: false,
-		margin: 48,
-		loop: true,
+		responsive: {
+			// breakpoint from 0 up
+			0: {
+				items: 2,
+				margin: 32,
+				loop: true,
+				dots: false,
+			},
+			// breakpoint from 480 up
+			601: {
+				items: 3,
+				margin: 32,
+				loop: true,
+				dots: false,
+			},
+			// breakpoint from 768 up
+			1001: {
+				items: 3,
+				margin: 48,
+				loop: true,
+				dots: false,
+			},
+		},
 	});
 });
 
@@ -14,7 +34,7 @@ const video = document.querySelector('#video-file');
 
 videoWrapper.addEventListener('click', function () {
 	if (video.paused) {
-		videoPicture.classList.add('none');
+		videoPicture.classList.add('hidden');
 		videoWrapper.classList.remove('video-overlay');
 		videoBtn.classList.add('none');
 		video.play();
