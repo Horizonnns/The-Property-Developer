@@ -46,7 +46,7 @@
 		bottom: 32px;
 		font-size: 80px;
 		background: linear-gradient(90deg, #114455 46px, #fff 46px);
-		/* background-clip: text; */
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -156,7 +156,7 @@
 		bottom: 22px;
 		font-size: 60px;
 		background: linear-gradient(90deg, #114455 33px, #fff 33px);
-		/* background-clip: text; */
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
