@@ -6,8 +6,8 @@ html {
 }
 
 body {
-	font-family: 'Gilroy', sans-serif;
 	font-weight: 500;
+	font-family: 'Gilroy', sans-serif;
 }
 
 .container {
@@ -29,11 +29,15 @@ body {
 }
 
 .none {
-	display: none;
+	display: none !important;
 }
 
 .hidden {
 	visibility: hidden;
+}
+
+.no-scroll {
+	overflow-y: hidden;
 }
 
 /* <!-- Button --> */
@@ -124,6 +128,10 @@ body {
 .nav {
 	display: flex;
 	justify-content: space-between;
+}
+
+.nav__logo {
+	max-width: 109px;
 }
 
 .nav__list {
@@ -309,15 +317,18 @@ body {
 	column-gap: 27px;
 }
 
+/* <!-- Mobile --> */
 .mobile-nav {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 99;
+	position: fixed;
 	min-height: 100vh;
-	position: absolute;
-	padding: 50px 24px 32px;
+	padding: 44px 15px 32px 24px;
 	background-color: #fff;
 
+	row-gap: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -325,22 +336,18 @@ body {
 
 .mobile-nav__header {
 	display: flex;
-	/* margin-bottom: 66px; */
 	justify-content: space-between;
 }
 
 .mobile-nav__logo {
-	height: 20px;
-}
-
-.mobile-nav__btn {
+	max-width: 109px;
 }
 
 .mobile-list {
 	font-size: 40px;
 	font-weight: 800;
 	color: #1f1f1f;
-	/* margin-bottom: 80px; */
+	margin-bottom: 60px;
 }
 
 .mobile-list a {
@@ -350,7 +357,6 @@ body {
 .mobile-contacts {
 	font-size: 16px;
 	line-height: 1.5;
-	/* margin-bottom: 80px; */
 }
 
 .mobile-contacts a {
@@ -372,9 +378,6 @@ body {
 .mobile-contacts__phone {
 	display: block;
 	margin-bottom: 16px;
-}
-
-.mobile-contacts__addres {
 }
 
 .mobile-footer {
